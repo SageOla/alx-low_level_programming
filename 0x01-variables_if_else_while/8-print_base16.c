@@ -2,20 +2,20 @@
 /**
  * main - Entry point
  *
- * Retun: Always 0 (success)
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	char c;
-	
+
 	int d;
 
 	c = 'a';
 	d = 0;
 	while
 		(d < 10) {
-			putchar(d + '0');
+			putchar(d +  '0');
 			d++;
 		}
 	while
