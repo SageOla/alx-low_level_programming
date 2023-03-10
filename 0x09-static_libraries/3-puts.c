@@ -1,13 +1,16 @@
 #include "main.h"
-void _puts(char *str)
-#include<stdio.h>
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * _puts - Check if a number is greater than 0
+ * @str: The number to be checked
  */
-int main(void)
+void _puts(char *str)
 {
-	puts("\"Programming is like building a multilingual puzzle");
-	return (0);
+	int i;
+
+	for (i = 0; *str != '\0'; i++)
+	{
+		_putchar(*str);
+		str++;
+	}
+	_putchar('\n');
 }
